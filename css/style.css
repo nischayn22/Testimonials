@@ -5,12 +5,12 @@ Main components
 
 -------------------------------- */
 .cd-testimonials-wrapper {
-  position: relative;
 /*
+  position: relative;
   width: 90%;
   max-width: 768px;
+  background-color: #662393;
   */
-  background-color: #39393c;
 /*
   margin: 2em auto;
   */
@@ -44,7 +44,7 @@ Main components
 /*
     margin: 4em auto;
 	*/
-    padding: 84px 50px 84px;
+    padding: 44px 50px 84px;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -118,7 +118,7 @@ Main components
 .cd-author .cd-author-info li:last-child {
   font-size: 12px;
   font-size: 0.75rem;
-  color: #6b6b70;
+  color: #9999A8;
 }
 @media only screen and (min-width: 768px) {
   .cd-author img {
@@ -161,9 +161,6 @@ Main components
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
-}
-.no-touch .flex-direction-nav li a:hover {
-  background-color: #323234;
 }
 .flex-direction-nav li a::before, .flex-direction-nav li a::after {
   /* left and right arrows in css only */
