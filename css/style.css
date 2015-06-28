@@ -19,7 +19,8 @@ Main components
   padding: 20px 40px 70px;
   z-index: 1;
 }
-.cd-testimonials-wrapper::after {
+
+ .quote-mark::after {
   /* quotation mark */
   content: '\201C';
   position: absolute;
@@ -40,7 +41,7 @@ Main components
 }
 @media only screen and (min-width: 768px) {
   .cd-testimonials-wrapper {
-	height:400px;
+	height:500px;
 /*
     margin: 4em auto;
 	*/
@@ -81,7 +82,7 @@ Main components
 @media only screen and (min-width: 768px) {
   .cd-testimonials p {
 	margin-left: 20px;
-	margin-right: 20px;
+	margin-right: 70px;
 	font-size: 22px;
     font-size: 1.375rem;
   }
@@ -105,7 +106,6 @@ Main components
   height: 32px;
   border-radius: 50%;
   margin-right: 5px;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
 .cd-author .cd-author-info {
   text-align: left;
