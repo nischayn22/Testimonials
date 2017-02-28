@@ -43,9 +43,8 @@ $wgExtensionMessagesFiles['Testimonials'] = __DIR__ . '/Testimonials.i18n.php';
 
 $wgResourceModules['ext.Testimonials.pageview'] = array(
 	'styles' => array( 'css/reset.css', 'css/style.css' ),
-	'scripts' => array( 'js/modernizr.js', 'js/masonry.pkgd.min.js', 'js/jquery.flexslider-min.js', 'js/main.js'),
+	'scripts' => array( 'js/modernizr.js', 'js/jquery.flexslider-min.js', 'js/main.js'),
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'Testimonials',
-	'position' => 'top', // available since r85616
-	'dependencies' => array( 'jquery' ),
+	'position' => 'bottom', // available since r85616
 );

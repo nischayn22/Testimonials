@@ -31,7 +31,8 @@ jQuery(document).ready(function($){
     });
     
 	//build the grid for the testimonials modal page
-	$('.cd-testimonials-all-wrapper').children('ul').masonry({
-  		itemSelector: '.cd-testimonials-item'
-	});
+	// I tried including 'js/masonry.pkgd.min.js' but it results in some errors - Nischayn22 28/02/17
+	// $('.cd-testimonials-all-wrapper').children('ul').masonry({
+		// itemSelector: '.cd-testimonials-item'
+	// });
 });
